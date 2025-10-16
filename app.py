@@ -200,7 +200,7 @@ if uploaded_file:
 
         ### SHAP Feature Contributions (RandomForestClassifier Result)
         """)
-        st.image(r"C:\Users\karti\Downloads\exported-assets\WhatsApp Image 2025-10-16 at 23.39.12_a6885adf.jpg", caption="SHAP Feature Contributions (RandomForestClassifier Result)", use_container_width=True)
+        st.image("WhatsApp Image 2025-10-16 at 23.39.12_a6885adf.jpg", caption="SHAP Feature Contributions (RandomForestClassifier Result)", use_container_width=True)
 
 else:
     if selected_tab != "Problem":
